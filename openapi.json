@@ -892,6 +892,9 @@
     },
     "/v1/chain/get_block": {
       "post": {
+        "tags": [
+          "chain"
+        ],
         "description": "Returns an object containing various details about a specific block on the blockchain.",
         "operationId": "get_block",
         "requestBody": {
@@ -1611,6 +1614,9 @@
     },
     "/v1/chain/get_info": {
       "post": {
+        "tags": [
+          "chain"
+        ],
         "description": "Returns an object containing various details about the blockchain.",
         "operationId": "get_info",
         "security": [],
@@ -1711,6 +1717,9 @@
     },
     "/v1/chain/push_transaction": {
       "post": {
+        "tags": [
+          "chain"
+        ],
         "description": "This method expects a transaction in JSON format and will attempt to apply it to the blockchain.",
         "operationId": "push_transaction",
         "requestBody": {
@@ -1762,6 +1771,9 @@
     },
     "/v1/chain/send_transaction": {
       "post": {
+        "tags": [
+          "chain"
+        ],
         "description": "This method expects a transaction in JSON format and will attempt to apply it to the blockchain.",
         "operationId": "send_transaction",
         "requestBody": {
@@ -1813,6 +1825,9 @@
     },
     "/v1/chain/push_transactions": {
       "post": {
+        "tags": [
+          "chain"
+        ],
         "description": "This method expects a transaction in JSON format and will attempt to apply it to the blockchain.",
         "operationId": "push_transactions",
         "requestBody": {
@@ -2229,6 +2244,9 @@
     },
     "/v1/chain/get_block_header_state": {
       "post": {
+        "tags": [
+          "chain"
+        ],
         "description": "Retrieves the glock header state",
         "operationId": "get_block_header_state",
         "requestBody": {
@@ -3334,6 +3352,9 @@
     },
     "/v1/chain/get_abi": {
       "post": {
+        "tags": [
+          "chain"
+        ],
         "description": "Retrieves the ABI for a contract based on its account name",
         "operationId": "get_abi",
         "requestBody": {
@@ -3731,6 +3752,9 @@
     },
     "/v1/chain/get_currency_balance": {
       "post": {
+        "tags": [
+          "chain"
+        ],
         "description": "Retrieves the current balance",
         "operationId": "get_currency_balance",
         "requestBody": {
@@ -3835,6 +3859,9 @@
     },
     "/v1/chain/get_currency_stats": {
       "post": {
+        "tags": [
+          "chain"
+        ],
         "description": "Retrieves currency stats",
         "operationId": "get_currency_stats",
         "requestBody": {
@@ -3899,6 +3926,9 @@
     },
     "/v1/chain/get_required_keys": {
       "post": {
+        "tags": [
+          "chain"
+        ],
         "description": "Returns the required keys needed to sign a transaction.",
         "operationId": "get_required_keys",
         "requestBody": {
@@ -4329,6 +4359,9 @@
     },
     "/v1/chain/get_producers": {
       "post": {
+        "tags": [
+          "chain"
+        ],
         "description": "Retrieves producers list",
         "operationId": "get_producers",
         "requestBody": {
@@ -4595,6 +4628,9 @@
     },
     "/v1/chain/get_raw_code_and_abi": {
       "post": {
+        "tags": [
+          "chain"
+        ],
         "description": "Retrieves raw code and ABI for a contract based on account name",
         "operationId": "get_raw_code_and_abi",
         "requestBody": {
@@ -4695,6 +4731,9 @@
     },
     "/v1/chain/get_scheduled_transaction": {
       "post": {
+        "tags": [
+          "chain"
+        ],
         "description": "Retrieves the scheduled transaction",
         "operationId": "get_scheduled_transaction",
         "requestBody": {
@@ -5132,6 +5171,9 @@
     },
     "/v1/chain/get_table_by_scope": {
       "post": {
+        "tags": [
+          "chain"
+        ],
         "description": "Retrieves table scope",
         "operationId": "get_table_by_scope",
         "requestBody": {
@@ -5365,6 +5407,9 @@
     },
     "/v1/chain/get_table_rows": {
       "post": {
+        "tags": [
+          "chain"
+        ],
         "description": "Returns an object containing rows from the specified table.",
         "operationId": "get_table_rows",
         "requestBody": {
@@ -5452,6 +5497,9 @@
     },
     "/v1/chain/abi_json_to_bin": {
       "post": {
+        "tags": [
+          "chain"
+        ],
         "description": "Returns an object containing the serialized action data.",
         "operationId": "abi_json_to_bin",
         "requestBody": {
@@ -5551,6 +5599,9 @@
     },
     "/v1/chain/abi_bin_to_json": {
       "post": {
+        "tags": [
+          "chain"
+        ],
         "description": "Returns an object containing the deserialized action data.",
         "operationId": "abi_bin_to_json",
         "requestBody": {
@@ -5649,6 +5700,9 @@
     },
     "/v1/chain/get_code": {
       "post": {
+        "tags": [
+          "chain"
+        ],
         "description": "Returns an object containing the smart contract WASM code.",
         "operationId": "get_code",
         "requestBody": {
@@ -6098,6 +6152,9 @@
     },
     "/v1/chain/get_raw_abi": {
       "post": {
+        "tags": [
+          "chain"
+        ],
         "description": "Returns an object containing the smart contract abi.",
         "operationId": "get_raw_abi",
         "requestBody": {
@@ -6207,6 +6264,9 @@
     },
     "/v1/chain/get_activated_protocol_features": {
       "post": {
+        "tags": [
+          "chain"
+        ],
         "description": "Retreives the activated protocol features for producer node",
         "operationId": "get_activated_protocol_features",
         "requestBody": {
@@ -6286,6 +6346,9 @@
     },
     "/v1/chain/get_accounts_by_authorizers": {
       "post": {
+        "tags": [
+          "chain"
+        ],
         "description": "Given a set of account names and public keys, find all account permission authorities that are, in part or whole, satisfiable",
         "operationId": "get_accounts_by_authorizers",
         "requestBody": {
