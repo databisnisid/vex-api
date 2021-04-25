@@ -41,7 +41,7 @@
       "description": "History 1.0.0 API"
     }
   ],
-    "components": {
+  "components": {
     "schemas": {}
   },
   "paths": {
@@ -6663,6 +6663,9 @@
     },
     "/v1/history/get_accounts?counter=on": {
       "get": {
+        "tags": [
+          "history"
+        ],
         "description": "get_accounts",
         "produces": [
           "application/json"
@@ -6694,6 +6697,9 @@
     },
     "/v1/history/get_voters/databisnisid": {
       "get": {
+        "tags": [
+          "history"
+        ],
         "description": "get_voters",
         "produces": [
           "application/json"
@@ -6718,6 +6724,9 @@
     },
     "/v1/history/get_actions": {
       "post": {
+        "tags": [
+          "history"
+        ],
         "description": "get_actions",
         "requestBody": {
           "content": {
@@ -6754,6 +6763,9 @@
     },
     "/v1/history/get_actions/databisnisid": {
       "get": {
+        "tags": [
+          "history"
+        ],
         "description": "get_actions",
         "produces": [
           "application/json"
@@ -6799,6 +6811,9 @@
     },
     "/v1/history/get_actions_delta/databisnisid": {
       "get": {
+        "tags": [
+          "history"
+        ],
         "description": "get_actions_delta",
         "produces": [
           "application/json"
@@ -6807,6 +6822,9 @@
     },
     "/v1/history/get_actions/databisnisid/sethash": {
       "get": {
+        "tags": [
+          "history"
+        ],
         "description": "get_actions by action name",
         "produces": [
           "application/json"
@@ -6838,6 +6856,9 @@
     },
     "/v1/history/get_transaction": {
       "post": {
+        "tags": [
+          "history"
+        ],
         "description": "get_transaction",
         "requestBody": {
           "content": {
