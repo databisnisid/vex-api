@@ -31,12 +31,26 @@
       }
     }
   ],
+   "tags": [
+    {
+      "name": "chain",
+      "description": "Chain 1.0.0 API"
+      }
+    },
+    {
+      "name": "history",
+      "description": "History 1.0.0 API"
+    }
+  ],
     "components": {
     "schemas": {}
   },
   "paths": {
     "/v1/chain/get_account": {
       "post": {
+        "tags": [
+          "chain"
+        ],
         "description": "Returns an object containing various details about a specific account on the blockchain.",
         "operationId": "get_account",
         "requestBody": {
