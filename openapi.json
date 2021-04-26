@@ -6878,6 +6878,9 @@
     },
     "/v1/history/get_transaction/${id}": {
       "get": {
+        "tags": [
+          "history"
+        ],
         "description": "get_transaction",
         "produces": [
           "application/json"
@@ -6886,6 +6889,9 @@
     },
     "/v1/history/get_controlled_accounts": {
       "post": {
+        "tags": [
+          "history"
+        ],
         "description": "get_controlled_accounts",
         "requestBody": {
           "content": {
@@ -6905,6 +6911,9 @@
     },
     "/v1/history/get_controlled_accounts/${controlling_account}": {
       "get": {
+        "tags": [
+          "history"
+        ],
         "description": "get_controlled_accounts",
         "produces": [
           "application/json"
@@ -6913,6 +6922,9 @@
     },
     "/v1/history/get_key_accounts": {
       "post": {
+        "tags": [
+          "history"
+        ],
         "description": "get_key_accounts",
         "requestBody": {
           "content": {
@@ -6932,6 +6944,9 @@
     },
     "/v1/history/get_key_accounts/${public_key}": {
       "get": {
+        "tags": [
+          "history"
+        ],
         "description": "get_key_accounts",
         "produces": [
           "application/json"
@@ -6940,6 +6955,9 @@
     },
     "/v1/chain/${chain_rpc_method_name}": {
       "post": {
+        "tags": [
+          "history"
+        ],
         "description": "Proxy for chain RPC endpoints",
         "produces": [
           "application/json"
